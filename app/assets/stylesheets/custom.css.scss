@@ -1,5 +1,7 @@
 @import "bootstrap";
 
+$lightGray:#999;
+
 /* universal */
 html{
 	overflow-y:scroll;
@@ -68,4 +70,35 @@ p{
 #logo:hover{
 	color:#fff;
 	text-decoration:none;
+}
+
+/* footer */
+
+footer{
+	margin-top:45px;
+	padding-to:5px;
+	border-top:1px solid #eaeaea;
+	color:$lightGray;
+
+	a {
+	color: #555;
+
+	&:hover {
+	color: #222;
+	}
+	}
+
+	small{
+	float:left;
+	}
+
+	ul{
+	float:right;
+	list-style:none;
+
+	li{
+	float:left;
+	margin-left:10px;
+	}
+	}
 }
